@@ -1,0 +1,109 @@
+@font-face {
+    font-family: phudu;
+    src: url(../../public/fonts/phudu.ttf);
+}
+
+body {
+    background-color: #bcbcbc;
+    color: #0c3c4c;
+    font-family: phudu;
+    text-align: center;
+}
+
+.panel {
+    background-color: #999;
+    border-radius: 2vw;
+    margin: 2vw;
+    padding: 1vw;
+}
+
+.org_creator {
+    display: inline-block;
+    padding: 1vw;
+}
+
+input {
+    display: block;
+    margin: .5vw;
+    background-color: #bcbcbc;
+}
+
+button {
+    background-color: #0c3c4c;
+    color: #bcbcbc;
+}
+
+.org_creator h3 {
+    margin: 0 0 1vw 0;
+}
+
+.org_list {
+    margin-bottom: 1vw;
+    padding: 0.1vw 0 1vw 0;
+}
+
+.org_list_item {
+    background-color: #888;
+    margin: 1vw 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.org_list_item span{
+    width: 33%;
+}
+
+.org_displayer {
+    display: inline-block;
+    padding-bottom: 2vw;
+}
+
+.org_displayer h3 {
+    width: 100%;
+}
+
+.org_displayer_header {
+    display: inline-block;
+    text-align: left;
+    margin-left: 3vw;
+    margin-right: 5vw;
+    font-weight: bold;
+}
+
+.org_displayer_data {
+    display: inline-block;
+    text-align: right;
+    margin-right: 3vw;
+    margin-left: 5vw;
+    font-weight: bold;
+}
+
+.member_whitelister {
+    display: inline-block;
+    padding-bottom: 1vw;
+}
+
+.member_list {
+    margin-bottom: 1vw;
+    padding: 0.1vw 0 1vw 0;
+}
+
+.member_list_item {
+    background-color: #888;
+    margin: 1vw 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.member_list_item .light_span {
+    width:20%
+}
+
+.member_list_item .heavy_span {
+    width:60%
+}
+
+.list_header {
+    background-color: #0c3c4c;
+    color:#bcbcbc;
+}
